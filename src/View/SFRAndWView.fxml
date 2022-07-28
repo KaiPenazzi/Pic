@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="250.0" text="SFR + W" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewModel.SFRAndWViewModel">
+   <content>
+      <Pane>
+         <children>
+            <Label layoutX="15.0" layoutY="15.0" prefHeight="35.0" prefWidth="99.0" text="W-Register:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="55.0" prefHeight="35.0" prefWidth="128.0" text="PCL:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="95.0" prefHeight="35.0" prefWidth="128.0" text="PCLATH:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="135.0" prefHeight="35.0" prefWidth="128.0" text="PC intern:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="175.0" prefHeight="35.0" prefWidth="128.0" text="Status:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="215.0" prefHeight="35.0" prefWidth="128.0" text="FSR:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="255.0" prefHeight="35.0" prefWidth="128.0" text="Option:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="295.0" prefHeight="35.0" prefWidth="128.0" text="Vorteiler:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="335.0" prefHeight="35.0" prefWidth="128.0" text="Timer0:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelWRegisterValue" layoutX="145.0" layoutY="15.0" prefHeight="35.0" prefWidth="100.0" text="00">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelPCLValue" layoutX="145.0" layoutY="55.0" prefHeight="35.0" prefWidth="100.0" text="00">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelPCLathValue" layoutX="145.0" layoutY="95.0" prefHeight="35.0" prefWidth="100.0" text="00">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelPCinternValue" layoutX="145.0" layoutY="135.0" prefHeight="35.0" prefWidth="100.0" text="00">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelStatusValue" layoutX="145.0" layoutY="175.0" prefHeight="35.0" prefWidth="100.0" text="00">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelFSRValue" layoutX="145.0" layoutY="215.0" prefHeight="35.0" prefWidth="100.0" text="00">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelOptionValue" layoutX="145.0" layoutY="255.0" prefHeight="35.0" prefWidth="100.0" text="00">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelVorteilerValue" layoutX="145.0" layoutY="295.0" prefHeight="35.0" prefWidth="100.0" text="00">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelTimer0Value" layoutX="145.0" layoutY="335.0" prefHeight="35.0" prefWidth="100.0" text="00">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </content>
+</TitledPane>

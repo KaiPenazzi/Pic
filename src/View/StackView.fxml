@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<TitledPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="450" prefWidth="250" minHeight="-Infinity" minWidth="-Infinity" text="Stack" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewModel.StackViewModel">
+   <content>
+      <Pane>
+         <children>
+            <Label layoutX="15.0" layoutY="15.0" text="1.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="55.0" text="2.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="95.0" text="3.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="135.0" text="8.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="175.0" text="4.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="215.0" text="5.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="255.0" text="6.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="295.0" text="7.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="labelStack0Value" alignment="CENTER" editable="false" layoutX="120.0" layoutY="13.0" prefHeight="30.0" prefWidth="70.0" text="0000">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="labelStack1Value" alignment="CENTER" editable="false" layoutX="120.0" layoutY="53.0" prefHeight="30.0" prefWidth="70.0" text="0000">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="labelStack2Value" alignment="CENTER" editable="false" layoutX="120.0" layoutY="93.0" prefHeight="30.0" prefWidth="70.0" text="0000">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="labelStack4Value" alignment="CENTER" editable="false" layoutX="120.0" layoutY="133.0" prefHeight="30.0" prefWidth="70.0" text="0000">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="labelStack5Value" alignment="CENTER" editable="false" layoutX="120.0" layoutY="173.0" prefHeight="30.0" prefWidth="70.0" text="0000">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="labelStack6Value" alignment="CENTER" editable="false" layoutX="120.0" layoutY="213.0" prefHeight="30.0" prefWidth="70.0" text="0000">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="labelStack7Value" alignment="CENTER" editable="false" layoutX="120.0" layoutY="253.0" prefHeight="30.0" prefWidth="70.0" text="0000">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="labelStack8Value" alignment="CENTER" editable="false" layoutX="120.0" layoutY="293.0" prefHeight="30.0" prefWidth="70.0" text="0000">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+         </children>
+      </Pane>
+   </content>
+</TitledPane>

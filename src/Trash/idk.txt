@@ -1,0 +1,25 @@
+void checkBox4PortAClick(ActionEvent event) {
+        // int optionRegister = ram.getRegisterByAddress(tools.hexToDecimal("81")) & 00100000;
+        // if (timerEnable == true) {
+        //     if ((optionRegister & 0b00100000) > 0){
+        //         if ((optionRegister & 0b00010000) > 0) {
+        //             if (!checkBoxPin4ValueB.isSelected()){
+        //                 if (programmCounter.getCounter() < programmCode.size()) {
+        //                     decoder(programmCode.get(programmCounter.getCounter()));
+        //                     setCheckBoxByCounter(programmCounter.getCounter());
+        //                     programmCounter.incCounter();
+        //                 }
+        //             }
+        //         }
+        //         else {
+        //             if (checkBoxPin4ValueB.isSelected()){
+        //                 if (programmCounter.getCounter() < programmCode.size()) {
+        //                     decoder(programmCode.get(programmCounter.getCounter()));
+        //                     setCheckBoxByCounter(programmCounter.getCounter());
+        //                     programmCounter.incCounter();
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
+    }
